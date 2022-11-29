@@ -1,4 +1,5 @@
 public class overloding {
+
     int add(int a,int b){
         return a+b;
     }
@@ -10,10 +11,12 @@ public class overloding {
     }
 
     public static void main(String[] args) {
-        overloding o1=new overloding();  //constructor create
-        o1.add(23,27);          //object create
+        overloding o1=new overloding();                                 //constructor create
+        o1.add(23,27);                          //object create
         o1.add(12.12,23.23);
+        o1.add(21,20,10);
         System.out.println(o1.add(23,27));
         System.out.println(o1.add(12.12,23.23));
+        System.out.println(o1.add(21,20,10));
     }
 }
