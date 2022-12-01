@@ -9,7 +9,7 @@ public class Throws {
                 throw new Exception("This is imposiable");
             System.out.println(A);
 
-        }catch (Exception e){
+        }catch (Exception e){  //JVM amder jaei error dhakabe siatha  kai ami Exception dhore nichi.
             System.out.println("Print ERROR !!!  " +e);
         }
 
