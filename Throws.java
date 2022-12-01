@@ -1,6 +1,6 @@
 import java.sql.SQLOutput;
 
-public class Throws {
+public class Throws {      
     public static void main(String[] args) {
         int S=8,B=0;
         try{
